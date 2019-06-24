@@ -7,9 +7,9 @@
   tools:context=".MainActivity">
 
   <ListView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/product_list">
-  </ListView>
+      android:id="@+id/product_list"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#2A16635B"></ListView>
 
 </android.support.constraint.ConstraintLayout>
