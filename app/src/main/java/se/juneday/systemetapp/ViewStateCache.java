@@ -81,6 +81,8 @@ public class ViewStateCache {
         Log.d(LOG_TAG, " * cacheValues() edittext: " + t);
       } else {
         Log.d(LOG_TAG, " *** uh oh, not supporting type: " + view.getClass().getCanonicalName());
+        
+        
       }
     }
   }
