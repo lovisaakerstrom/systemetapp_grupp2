@@ -14,7 +14,7 @@ public class CartActivity extends AppCompatActivity {
     private TextView welcome_text;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
 
