@@ -1,9 +1,12 @@
 <resources>
-  <string name="app_name">SYSTEMBOLAGET</string>
+    <string name="app_name">SYSTEMBOLAGET</string>
     <string name="f_r_att_bes_ka_systembolaget_se_m_ste_du_vara_20_r_gammal">För att besöka Systembolaget.se måste du vara 20 år gammal</string>
     <string name="jag_r_20_r_eller_ldre">JAG ÄR 20 ÅR ELLER ÄLDRE</string>
     <string name="jag_r_under_20_r">JAG ÄR UNDER 20 ÅR</string>
     <string name="title_activity_firstActivity" />
     <string name="title_first_activity" />
     <string name="ny_s_kning">Ny sökning</string>
+    <string name="v_lkommen_till_systembolaget">VÄLKOMMEN TILL SYSTEMBOLAGET</string>
+    <string name="f_r_att_bes_ka_sidan_m_ste_du_vara_ver_20_r">FÖR ATT BESÖKA SIDAN MÅSTE DU VARA ÖVER 20 ÅR</string>
+    <string name="t_m_varukorgen">TÖM VARUKORGEN</string>
 </resources>
