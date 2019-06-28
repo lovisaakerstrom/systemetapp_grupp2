@@ -43,7 +43,6 @@ public class FirstActivity extends AppCompatActivity {
 
                 Intent i = new Intent( FirstActivity.this, MainActivity.class);
                 startActivity(i);
-                
             }
 
         });
