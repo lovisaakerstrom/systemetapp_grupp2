@@ -29,5 +29,21 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content" />
 
+  <Button
+      android:id="@+id/ButtonAddToCart"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#32009688"
+      android:text="LÄGG TILL I VARUKORG"
+      android:textColor="#FCFCFC"></Button>
+
+  <Button
+      android:id="@+id/ButtonProceed"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#41009688"
+      android:text="GÅ VIDARE TILL KASSAN"
+      android:textColor="#FCFCFC"></Button>
+
 
 </LinearLayout>
