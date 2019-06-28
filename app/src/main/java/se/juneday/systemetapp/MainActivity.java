@@ -51,7 +51,8 @@ public class MainActivity extends AppCompatActivity {
   private static final String NAME = "name";
 
 
-  private void createFakedProducts() {
+  //färdiga fake produkter för test av applikationen, behövs ej
+ private void createFakedProducts() {
     products = new ArrayList<>();
     Product p1 = new Product.Builder()
             .alcohol(4.4)
@@ -192,6 +193,7 @@ public class MainActivity extends AppCompatActivity {
 
     RequestQueue queue = Volley.newRequestQueue(this);
     String url = "http://rameau.sandklef.com:9090/search/products/all/" + argumentString;
+    // 10..0.2.2:8080???
     Log.d(LOG_TAG, "Searching using url: " + url);
     JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(
             Request.Method.GET,
